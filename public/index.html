@@ -2,13 +2,38 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>My site</title>
+    <title>Soft Food</title>
+      
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Uncomment the line below if you want to make the Ajax call from an external js file -->
+    <!--<script src="js/site.js"></script>-->
+
+
   </head>
 
   <body>
     <h1>Home page</h1>
+      
+    <nav id="test">
+        <!-- This script makes the Ajax call from right here on the page -->
+        <script>
+            $("#test").load("Data/AjaxTest.txt");
+        </script>
+    </nav>
+
+    <div>
     <p>
       This is the home page for the site. Soon to be replaced with real content. 
     </p>
+    </div>
+    
+<!-- Uncomment the block below if you're using the external js file. This will invoke the method in that file -->
+<!--    <script>
+        $(document).ready(loadNav);
+    </script> -->
+      
+
+      
   </body>
+
 </html>
