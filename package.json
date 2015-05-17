@@ -1,29 +1,29 @@
 {
-  "name": "SimpleExpressServerForHeroku",
+  "name": "Paul Elliott RWDQ3 Project",
   "version": "0.1.0",
-  "description": "A simple server based on Node.js and Express for deployment on Heroku",
+  "description": "No idea what I plan to do...",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidand36/SimpleExpressServerForHeroku.git"
+    "url": "https://github.com/pelliott67/pe-rwdq3-project-1"
   },
   "keywords": [
-    "express",
+    "project",
     "static",
     "heroku"
   ],
-  "author": "David M. Anderson",
+  "author": "Paul Elliott",
   "license": "GPL 3.0",
   "bugs": {
-    "url": "https://github.com/davidand36/SimpleExpressServerForHeroku/issues"
+    "url": "https://github.com/pelliott67/pe-rwdq3-project-1"
   },
   "engines": {
       "node": "0.10.x"
   },
-  "homepage": "https://github.com/davidand36/SimpleExpressServerForHeroku",
+  "homepage": "https://github.com/pelliott67/pe-rwdq3-project-1",
   "dependencies": {
     "compression": "^1.0.9",
     "express": "^4.7.2",
