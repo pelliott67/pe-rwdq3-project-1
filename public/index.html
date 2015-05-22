@@ -5,21 +5,23 @@
     <title>Soft Food</title>
       
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Uncomment the line below if you want to make the Ajax call from an external js file -->
-    <!--<script src="js/site.js"></script>-->
-
+    <script src="js/handlebars-v3.0.3.js" type="text/javascript" > </script>
 
   </head>
 
   <body>
-    <h1>Home page</h1>
-      
-    <nav id="test">
-        <!-- This script makes the Ajax call from right here on the page -->
-        <script>
-            $("#test").load("Data/AjaxTest.txt");
-        </script>
-    </nav>
+    <h1>Soft Food</h1>
+
+    <script id="nav-template" type="text/x-handlebars-template">
+        <ul>
+            <li><a href="{{linkURL1}}">{{linkName1}}</a></li>
+            <li><a href="{{linkURL2}}">{{linkName2}}</a></li>
+            <li><a href="{{linkURL3}}">{{linkName3}}</a></li>
+            <li><a href="{{linkURL4}}">{{linkName4}}</a></li>
+            <li><a href="{{linkURL5}}">{{linkName5}}</a></li>
+        </ul>
+    </script>
+
 
     <div>
     <p>
@@ -27,12 +29,14 @@
     </p>
     </div>
     
-<!-- Uncomment the block below if you're using the external js file. This will invoke the method in that file -->
-<!--    <script>
-        $(document).ready(loadNav);
-    </script> -->
-      
 
+    <script src="js/site.js"></script>
+      <!--
+    <script>
+        /* Insert nav from txt file via AJAX. */
+        /*$(document).ready(loadNav);*/
+    </script>
+      -->
       
   </body>
 
