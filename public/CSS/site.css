@@ -1,0 +1,11 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+
+
+/*************** Nav classes *******************/
+li.active-menu {
+    font-weight: bolder;
+}
