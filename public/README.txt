@@ -19,11 +19,11 @@ So far
 - Incorporated autobars-js, jquery plugin for loading handlebars templates from external files. Split js into global + per page. Split templates into individual (per page) hbs files.
 - 2 of 5 pages on template; placeholder .html files for others
 - Created basic (ugly) css for responsive and updated index.html to use necessary divs
+- Updated remaining pages to new css, created hbs templates and page js files
 
 To do
-Create basic templates & placeholder content for remaining pages (recipe index, recipe detail, recipe file)
 Create catalog JSON
-Recipe index page: Read catalog JSON to build list of link
+Recipe index page: Read catalog JSON to build list of links
 Recipe detail page: Read catalog JSON to display recipe details
 Recipe index/detail integration: Modify detail page to take ID, wire recipe links to pass recipe ID
 Store recipes: Button from recipe detail page adds ID to local storage array
