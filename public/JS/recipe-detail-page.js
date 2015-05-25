@@ -1,21 +1,17 @@
 
-/***************************** KITCHEN-PAGE JS ***************************************
-Makes heavy use of jquery-autobars, https://github.com/cultofmetatron/jquery-autobars
-            https://github.com/cultofmetatron/jquery-autobars
-                    No license information found
-**************************************************************************************/
+/***************************** RECIPE-DETAIL-PAGE JS *********************************/
 
 function loadPage(pageName){
     
         var callback_function = function() {
         
 
-        var $html = $.handlebarTemplates['kitchen-body']({
+        var $html = $.handlebarTemplates['recipe-detail']({
             message: pageName
         });
         $("#page-body-placeholder").html($html);
 
-        var $html = $.handlebarTemplates['kitchen-body2']({
+        var $html = $.handlebarTemplates['recipe-detail2']({
             message: "Another section"
         });
         $("#page-section-placholder").html($html);
@@ -23,8 +19,8 @@ function loadPage(pageName){
       };
 
       var template_list = [
-        'templates/kitchen/kitchen-body.hbs',
-        'templates/kitchen/kitchen-body2.hbs',
+        'templates/recipe-detail/recipe-detail.hbs',
+        'templates/recipe-detail/recipe-detail2.hbs',
       ]
 
 /*      var partial_list = [

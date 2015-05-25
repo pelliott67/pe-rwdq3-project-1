@@ -17,18 +17,18 @@ Media queries (not part of this quarter, but we only spent 1/2 class on it last 
 So far
 - Built common template used by all pages. All content loaded through js from handlebars templates/partials. 
 - Incorporated autobars-js, jquery plugin for loading handlebars templates from external files. Split js into global + per page. Split templates into individual (per page) hbs files.
-- 2/5 pages on template; placeholder .html files for others
+- 2 of 5 pages on template; placeholder .html files for others
+- Created basic (ugly) css for responsive and updated index.html to use necessary divs
 
 To do
 Create basic templates & placeholder content for remaining pages (recipe index, recipe detail, recipe file)
-CSS for basic desktop layout
 Create catalog JSON
 Recipe index page: Read catalog JSON to build list of link
 Recipe detail page: Read catalog JSON to display recipe details
 Recipe index/detail integration: Modify detail page to take ID, wire recipe links to pass recipe ID
 Store recipes: Button from recipe detail page adds ID to local storage array
 Recipe file page: Read IDs from local storage, build list of links
-Responsive behavior: media queries for smaller displays
+Explore updating css to grid system
 
 
 

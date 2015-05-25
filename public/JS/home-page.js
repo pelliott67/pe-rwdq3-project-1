@@ -1,5 +1,5 @@
 
-/*****************************************************************************************************
+/**************************************** HOME-PAGE JS ***********************************************
 Makes heavy use of jquery-autobars, jquery plugin for loading handlebars templates from external files
             https://github.com/cultofmetatron/jquery-autobars
                     No license information found

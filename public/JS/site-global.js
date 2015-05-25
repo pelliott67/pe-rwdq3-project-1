@@ -14,8 +14,9 @@ function loadGlobal(pageName){
             items:[
             {linkName:"Home", itemClass:"",linkURL:"index.html"},
             {linkName:"Soft food kitchen",itemClass:"",linkURL:"kitchen.html"},
-            {linkName:"Recipes",itemClass:"",linkURL:"recipes.html"},
-            {linkName:"My recipe file",itemClass:"",linkURL:"recipe_file.html"}
+            {linkName:"Recipes",itemClass:"",linkURL:"recipe-list.html"},
+            {linkName:"My recipe file",itemClass:"",linkURL:"recipe-file.html"},
+            {linkName:"DELETE ME: Recipe detail page",itemClass:"",linkURL:"recipe-detail.html"}
             ]
         }
           
