@@ -1,3 +1,15 @@
+/* resets */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
 }

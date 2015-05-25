@@ -15,13 +15,13 @@ HTML5 local storage - Store & retrieve array of saved recipes
 Media queries (not part of this quarter, but we only spent 1/2 class on it last quarter and as it's the soul of responsive design I'd like to learn it better)
 
 So far
-Built common template used by all pages. All content loaded through js from handlebars templates/partials. 
-Incorporated autobars-js, jquery plugin for loading handlebars templates from external files. Split js into global + per page. Split templates into individual (per page) hbs files.
-2/5 pages on template; placeholder .html files for others
+- Built common template used by all pages. All content loaded through js from handlebars templates/partials. 
+- Incorporated autobars-js, jquery plugin for loading handlebars templates from external files. Split js into global + per page. Split templates into individual (per page) hbs files.
+- 2/5 pages on template; placeholder .html files for others
 
 To do
 Create basic templates & placeholder content for remaining pages (recipe index, recipe detail, recipe file)
-CSS for basice desktop layout
+CSS for basic desktop layout
 Create catalog JSON
 Recipe index page: Read catalog JSON to build list of link
 Recipe detail page: Read catalog JSON to display recipe details
